@@ -33,3 +33,12 @@ img{
     height: 90px;
     width: 300px;
 }
+body{
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+}
+
+nav{
+    background-color:rgb(23, 23, 167);
+    text-align;
+}
