@@ -12,8 +12,13 @@ header{
     font-size: 70%;
     color: white;
     padding-left: 75%;
+    padding-top: 4px;
+    padding-bottom: 4px;
     
-   
+}
+
+header a {
+    padding-inline: 6px;
 }
 
 main{
