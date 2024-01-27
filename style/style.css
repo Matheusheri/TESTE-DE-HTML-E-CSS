@@ -57,4 +57,26 @@ body{
 
 .submenu li {
     margin-left: 10px;
+
 }
+
+/* Inicio Sub menu 1 */
+
+.sub-menu-1  {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+
+}
+
+.sub-menu-1 a{
+    display: block;
+    color: black;
+
+}
+
+.pai-sub-menu-1:hover .sub-menu-1{
+    display:block;
+} 
+
+/* Passar o mouse em cima da classe ativa o sub menu */
