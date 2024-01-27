@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
     
 }
 
-
+a {
+    text-decoration: none;
+}
 
 header{
     background-color: rgb(23, 23, 167);
@@ -17,7 +20,7 @@ header{
     
 }
 
-header a {
+.num {
     padding-inline: 6px;
 }
 
@@ -27,32 +30,31 @@ main{
     
 }
 
-img{
-    padding-left: 100px;
-    padding-top: 12px;
-    height: 90px;
-    width: 300px;
-}
 body{
     background-repeat: no-repeat;
     min-height: 100vh; 
 }
 
-nav ul li{
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.menu img {
+    /*  */
+    height: 90px;
+}
+
+.submenu{
     display: flex;
     justify-content: space-between;
     padding: 1px;
     flex-wrap: wrap;
-}
-
-.menu{
     
 }
 
-
-
-
-
-
-
-
+.submenu li {
+    margin-left: 10px;
+}
