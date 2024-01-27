@@ -38,7 +38,21 @@ body{
     min-height: 100vh; 
 }
 
-nav{
-    background-color:rgb(23, 23, 167);
-    text-align;
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    flex-wrap: wrap;
 }
+
+.menu{
+    
+}
+
+
+
+
+
+
+
+
