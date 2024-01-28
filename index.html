@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TESTE DE HTML E CSS</title>
-    <link rel="stylesheet" href="style/style.css">
     
+    <link rel="stylesheet" href="lib/Nivo-Slider/themes/default/default.css"/>
+    <link rel="stylesheet" href="lib/Nivo-Slider/nivo-slider.css"/>
+    
+    <link rel="stylesheet" href="style/style.css">
+
 </head>
 <body>
 
@@ -22,7 +26,7 @@
             <nav>
                 <ul class="submenu">
                     <li><a href="#">HOME</a></li>
-                    <li class="pai-sub-menu-1"><a href="#">EMPRESA</a>
+                    <li class="pai-sub-menu-1"><a href="#">EMPRESA</a> 
                     <!-- Menu secundario que abre ao passar o mouse -->
                     <div class="sub-menu-1">
                         <ul>
@@ -43,21 +47,15 @@
         
     </main>
 
-    <footer>
-        <img src="walle.jpg">
-    </footer>
+    <div id="slider" class="nivoslider theme-default">
+        <img class="ToyStory" src="ToyStory.jpg">
+        <img src="walle.jpg">      
+    </div>
 
-    <h3>TESTE DE HTML E CSS</h3>
-    <br>
-    <h5>
-        Quesitos de avaliaçao
-    </h5>
-    <br>
-    
-    <ul>
-        <li><a href="#">oiioioio</a></li>
-    </ul>
-        
+
+    <script src="js/jquery.js"></script>
+    <script src="lib/Nivo-Slider/jquery.nivo.slider.js"></script>
+    <script src="js/arq.js"></script>
     
 </body>
 </html>

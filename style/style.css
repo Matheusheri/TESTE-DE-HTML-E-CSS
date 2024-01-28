@@ -98,6 +98,11 @@ footer img{
 }
 
 .nav{
-    margin-left: 20000000px;
+    margin-left: px;
     background-color: black;
+}
+
+.imgToyStory{
+    background-color: black;
+    height: 10000%;
 }
