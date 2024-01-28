@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    
+    
+    
     
 }
 
@@ -14,7 +16,7 @@ header{
     background-color: rgb(23, 23, 167);
     font-size: 70%;
     color: white;
-    padding-left: 75%;
+    padding-left: 80%;
     padding-top: 4px;
     padding-bottom: 4px;
     
@@ -35,45 +37,51 @@ body{
     min-height: 100vh; 
 }
 
-.menu {
+.menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: end;
+    margin-left: 19px;
 }
 
 .menu img {
     /*  */
-    height: 90px;
+    width: 240px;
+    height: 80px;
+    
 }
 
 .submenu{
     display: flex;
-    justify-content: space-between;
     padding: 1px;
     flex-wrap: wrap;
+    list-style: none;
     
 }
 
 .submenu li {
     margin-left: 10px;
-    
-        
-
+    z-index: 10; /* Valor maior do que o z-index do slider */
+    margin-left: 10px
 }
 
 /* Inicio Sub menu 1 */
 
 .sub-menu-1  {
     position: absolute;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px #020085;
     display: none;
+    background-color: #020085;
+    font-size: 17px;
+    
 
 }
 
 .sub-menu-1 a{
+    object-fit: contain;
     display: block;
-    color: black;
+    color: #B4B4B4;
 
 }
 
@@ -86,23 +94,53 @@ body{
 footer{
 
 /* Cor das Lateriais da pagina #B4B4B4 */
-
+    height: 80px;;
     background-color: #D1D1D1; 
     padding: 20px;
-    text-decoration: none;
+    
 }
 
-footer img{
-    width: 100;
-    height: 300px;
+footer{
+    height:290px;
 }
 
-.nav{
-    margin-left: px;
+.mae{
+    height: 120px;
+    justify-content: space-around;
+    margin-inline: 150px;
+
+}
+
+article{
+    padding: 80px;
+    text-align: left;
+    flex-wrap: wrap;
+
+}
+
+article img{
+    position: absolute;
+    right: 155px;
+    width: 325px;
+    height: 212px;
+    
+}
+
+.rodape{
+    background-color: #454545;
+    text-align: top, center;
+    
+    
+}
+
+/* .img2{
+    display: flex;
+    
+    justify-content: space-between;
     background-color: black;
-}
+} */
 
-.imgToyStory{
-    background-color: black;
-    height: 10000%;
+.container {
+    margin-top: 1;
+    margin-left: 100px;
 }
