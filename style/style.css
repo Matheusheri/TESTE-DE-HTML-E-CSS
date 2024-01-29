@@ -2,42 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-    
-    
+    text-decoration: none;
 }
 
 a {
     text-decoration: none;
 }
 
-header{
+header {
     background-color: rgb(23, 23, 167);
     font-size: 70%;
     color: white;
     padding-left: 80%;
     padding-top: 4px;
     padding-bottom: 4px;
-    
 }
 
 .num {
     padding-inline: 6px;
 }
 
-main{
+main {
     padding: 10px;
-    
-    
 }
 
-body{
+body {
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,101 +40,128 @@ body{
 }
 
 .menu img {
-    /*  */
     width: 240px;
     height: 80px;
-    
 }
 
-.submenu{
+.submenu {
     display: flex;
     padding: 1px;
     flex-wrap: wrap;
     list-style: none;
-    
 }
 
 .submenu li {
     margin-left: 10px;
-    z-index: 10; /* Valor maior do que o z-index do slider */
-    margin-left: 10px
+    z-index: 10;
+    margin-left: 10px;
 }
 
-/* Inicio Sub menu 1 */
-
-.sub-menu-1  {
+.sub-menu-1 {
     position: absolute;
-    box-shadow: 0 0 2px #020085;
+    box-shadow: 0 0 4px #020085;
     display: none;
     background-color: #020085;
-    font-size: 17px;
-    
-
+    font-size: 14px;
+    text-size-adjust: 1px;
+    padding: 9px;
 }
 
-.sub-menu-1 a{
+.sub-menu-1 a {
     object-fit: contain;
     display: block;
     color: #B4B4B4;
-
 }
 
-.pai-sub-menu-1:hover .sub-menu-1{
-    display:block;
-} 
+.sub-menu-2 {
+    display: none;
+    text-decoration: none;
+}
 
-/* Passar o mouse em cima da classe ativa o sub menu */
+ul.hover-sub:hover .sub-menu-2 {
+    padding: 9px;
+    display: block;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 88px;
+    size: 90px;
+    background-color: #020085;
+    font-size: 14px;
+}
 
-footer{
+.pai-sub-menu-1:hover .sub-menu-1 {
+    display: block;
+}
 
-/* Cor das Lateriais da pagina #B4B4B4 */
-    height: 80px;;
-    background-color: #D1D1D1; 
+footer {
+    height: auto;
+    background-color: #D1D1D1;
     padding: 20px;
-    
+    height: 290px;
 }
 
-footer{
-    height:290px;
-}
-
-.mae{
+.mae {
     height: 120px;
     justify-content: space-around;
     margin-inline: 150px;
-
 }
 
-article{
+article {
     padding: 80px;
     text-align: left;
     flex-wrap: wrap;
-
 }
 
-article img{
+article img {
     position: absolute;
     right: 155px;
     width: 325px;
     height: 212px;
-    
 }
-
-.rodape{
-    background-color: #454545;
-    text-align: top, center;
-    
-    
-}
-
-/* .img2{
-    display: flex;
-    
-    justify-content: space-between;
-    background-color: black;
-} */
 
 .container {
-    margin-top: 1;
+    margin-top: 1px;
     margin-left: 100px;
+}
+
+.container img {
+    width: 325px;
+    height: 212px;
+    object-fit: cover;
+    margin-top: 1;
+}
+
+section.imgensrodape {
+    padding: 1px;
+    margin-left: 165px;
+}
+
+section.imgensrodape img {
+    object-fit: cover;
+    width: 196px;
+    height: 163px;
+    margin-right: 134px;
+}
+
+h3 {
+    position: absolute;
+    left: 179px;
+    top: 100%;
+    color: #ABABAB;
+}
+
+.rodape {
+    height: 5000000%;
+    background-color: #454545;
+}
+
+.rodape ul {
+    background-color: #454545;
+    height: 1px;
+    word-spacing: 10px;
+    color: black;
+    font-size: 20px;
+    margin-right: 10%;
+    margin-left: 37%;
+    margin-right: 1px;
 }

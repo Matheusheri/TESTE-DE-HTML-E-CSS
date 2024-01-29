@@ -1,108 +1,106 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TESTE DE HTML E CSS</title>
-    
-    <link rel="stylesheet" href="lib/Nivo-Slider/themes/default/default.css"/>
-    <link rel="stylesheet" href="lib/Nivo-Slider/nivo-slider.css"/>
-    
+
+    <link rel="stylesheet" href="lib/Nivo-Slider/themes/default/default.css" />
+    <link rel="stylesheet" href="lib/Nivo-Slider/nivo-slider.css" />
+
     <link rel="stylesheet" href="style/style.css">
-
 </head>
-
-<div class="container"></div>
 
 <body>
 
     <header>
         <a class="num">11 1234-1234</a> <a class="num">11 1234-1234</a>
-    </header>   
-     
-<div class="mae">   
-    
-    <main>
-        
-        <section class="menu">
-             <img src="walle.jpg" alt="walle">
-            <nav>
-                <ul class="submenu">
-                    <li><a href="#">HOME</a></li>
-                    <li class="pai-sub-menu-1"><a href="#">EMPRESA</a> 
-                    <!-- Menu secundario que abre ao passar o mouse -->
-                    <div class="sub-menu-1">
-                        <ul>
-                            <a href="#">SUBMENU 1</a>
-                            <a href="#">SUBMENU 2</a>
-                            <a href="#">SUBMENU 3</a>
-                            <a href="#">SUBMENU 4</a>
-                                
-                        </ul>
-                        
-                    </div>
-                </li>
+    </header>
 
-                    <li><a href="#">CLIENTES</a></li>
-                    <li><a href="#">CONTATO</a></li>
-                </ul>    
-                
-            </nav>
-        </section>
+    <div class="mae">
+        <main>
+            <section class="menu">
+                <img src="walle.jpg">
+                <nav>
+                    <ul class="submenu">
+                        <li><a href="#">HOME</a></li>
+                        <li class="pai-sub-menu-1"><a href="#">EMPRESA</a>
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <a href="#">SUBMENU 1</a>
+                                    <a href="#">SUBMENU 1</a>
+                                    <a href="#">SUBMENU 1</a>
+                                    <ul class="hover-sub"><a href="#">SUBMENU 1</a>
+                                        <div class="sub-menu-2">
+                                            <ul>
+                                                <a href="#">SUBMENU.2</a>
+                                                <a href="#">SUBMENU2</a>
+                                                <a href="#">SUBMENU2</a>
+                                                <a href="#">SUBMENU2</a>
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </li>
 
+                        <li><a href="#">CLIENTES</a></li>
+                        <li><a href="#">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </main>
+    </div>
 
-        
+    <footer>
+        <div id="slider" class="nivoslider theme-default">
+            <img class="ToyStory" src="ToyStory.jpg">
+            <img src="walle.jpg">
+        </div>
 
-
-    </main>
-
-</div> 
-  
-<footer>
-    <div id="slider" class="nivoslider theme-default">
-    <img class="ToyStory" src="ToyStory.jpg">
-    <img src="walle.jpg">      
-</div>
-
-
-<script src="js/jquery.js"></script>
-<script src="lib/Nivo-Slider/jquery.nivo.slider.js"></script>
-<script src="js/arq.js"></script>
-</footer> 
-
-
+        <script src="js/jquery.js"></script>
+        <script src="lib/Nivo-Slider/jquery.nivo.slider.js"></script>
+        <script src="js/arq.js"></script>
+    </footer>
 
     <article class="container">
         <img src="nemo.jpg">
-        <ul> <h1>TESTE DE HTML E CSS</h1> </ul>
-            <br>
-                <ul> Quesitos de avaliaçao: </ul>
+        <ul>
+            <h1>TESTE DE HTML E CSS</h1>
         </ul>
         <br>
-
-
-        <li>Organizaçao do codigo (quanto mais limpo melhor);</li>
-        <li>Nivel de detalhismo (quanto mais identico melhor);</li>
+        <ul> Quesitos de avaliação: </ul>
+        </ul>
+        <br>
+        <li>Organização do código (quanto mais limpo melhor);</li>
+        <li>Nível de detalhismo (quanto mais identico melhor);</li>
         <li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);</li>
         <br>
         <ul>Obrigado e boa sorte!</ul>
     </article>
 
-    <article class="img2">
-        
-    </article>
+    <h3>BOXES DE DESTAQUE</h3>
+
+    <section class="imgensrodape">
+        <img src="images.jpeg" alt="">
+        <img src="nemo.jpg" alt="">
+        <img src="ToyStory.jpg" alt="">
+        <img src="walle.jpg" alt="">
+        <p></p>
+    </section>
+    <p></p>
 
     <article class="rodape">
         <ul>
-            <a>Serviço 1</a>
-            <a>Serviço 2</a>
-            <a>Serviço 3</a>
-            <a>Serviço 4</a>
-
+            <a> HOME</a>
+            <a> EMPRESA </a>
+            <a> CLIENTES </a>
+            <a> CONTATO </a>
         </ul>
-    </div>
     </article>
 
 </body>
+
 </html>
